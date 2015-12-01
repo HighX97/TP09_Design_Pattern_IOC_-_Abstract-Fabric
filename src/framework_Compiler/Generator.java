@@ -1,5 +1,8 @@
 package framework_Compiler;
 
-public class Generator {
+
+public abstract class Generator {
+	
+	public abstract File generate(AST a);
 
 }

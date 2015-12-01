@@ -1,5 +1,7 @@
 package framework_Compiler;
 
-public class Parser {
+public abstract class Parser {
+	
+	public abstract AST parse(ScanedText t);
 
 }
