@@ -2,10 +2,10 @@ package framework_Compiler;
 
 public class LexerCpp extends Lexer {
 
-	@Override
+
 	public ScanedText scan(ProgramText t) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("I am scanning a C++ program text");
+		return new ScanedText();
 	}
 
 }

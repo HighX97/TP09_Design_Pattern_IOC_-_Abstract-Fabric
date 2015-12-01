@@ -4,8 +4,8 @@ public class GeneratorCpp extends Generator {
 
 	@Override
 	public File generate(AST a) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("I am generating an assembler program text from C++ AbstractSyntaxTree");
+		return new File();
 	}
 
 }

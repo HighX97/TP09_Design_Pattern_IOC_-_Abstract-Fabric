@@ -4,8 +4,8 @@ public class LexerJava extends Lexer {
 
 	@Override
 	public ScanedText scan(ProgramText t) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("I am scanning a Java program text");
+		return new ScanedText();
 	}
 
 }
